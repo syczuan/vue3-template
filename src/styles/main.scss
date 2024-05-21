@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* 隐藏滚动条 */
+.hide_scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  overflow-x: hidden;
+}
